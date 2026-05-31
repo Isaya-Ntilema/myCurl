@@ -6,5 +6,4 @@ The content that is returned from the URI should be saved to a file (if -o  or  
 
 Compilation instructions; 
 
-g++ -std=c++17 mycurl.cpp -o mycurl \
-   -lboost_system -lssl -lcrypto -lpthread
+g++ -std=c++17 mycurl.cpp -o mycurl -lboost_system -lssl -lcrypto -lpthread
